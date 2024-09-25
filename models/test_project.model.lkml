@@ -1,4 +1,4 @@
-connection: "sample_bigquery_connection"
+connection: "test-connection"
 
 datagroup: test_project_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -6,4 +6,3 @@ datagroup: test_project_default_datagroup {
 }
 
 persist_with: test_project_default_datagroup
-
