@@ -6,3 +6,8 @@ datagroup: test_project_default_datagroup {
 }
 
 persist_with: test_project_default_datagroup
+
+access_grant: project_accessors{
+user_attribute: test_project_accessor
+allowed_values: ["Test Project Accessor"]
+}
