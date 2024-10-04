@@ -1,7 +1,7 @@
 view: parameter_view {
   parameter: name_selector {
-    default_value: "Enter a Name"
-    allowed_value: {value: "Enter a Name"}
+    default_value: "Name"
+    allowed_value: {value: "Name"}
     allowed_value: {value: "Daniela Rodriguez"}
   }
   dimension: name {
