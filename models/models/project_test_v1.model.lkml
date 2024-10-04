@@ -1,7 +1,7 @@
 connection: "bq-test-conn-v1"
 
 # include all the views
-include: "/views/**/*.view.lkml"
+include: "/explores/explore_test.explore.lkml"
 
 datagroup: project_test_v1_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -10,7 +10,6 @@ datagroup: project_test_v1_default_datagroup {
 
 persist_with: project_test_v1_default_datagroup
 
-explore: healthcaretbl {}
+#explore: healthcaretbl {}
 
-explore: pacientes {}
-
+#explore: pacientes {}
